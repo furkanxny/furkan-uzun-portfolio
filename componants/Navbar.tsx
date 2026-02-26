@@ -1,0 +1,58 @@
+import Image from "next/image";
+import Link from "next/link";
+
+export const Navbar = () => {
+  return (
+    <div className="sticky top-0 z-50 bg-gray-500 flex flex-row items-center justify-between pt-4 pb-4 px-4 sm:px-6 lg:px-8">
+      <nav>
+        <ul className=" flex flex-row items-center justify-end gap-12 h-12">
+          <li className="text-white font-bold cursor-pointer">
+            <Link
+              href="https://www.linkedin.com/in/furkanxny28/"
+              target="_blank"
+              rel="noopener noreferrer"
+            >
+              <Image
+                src="/linkedin-logo.png"
+                alt="Linkedin"
+                width={80}
+                height={75}
+              />
+            </Link>
+          </li>
+          <li className="text-white font-bold cursor-pointer">
+            <Link
+              href="https://github.com/furkanxny"
+              target="_blank"
+              rel="noopener noreferrer"
+            >
+              <Image
+                src="https://upload.wikimedia.org/wikipedia/commons/9/91/Octicons-mark-github.svg"
+                alt="Github"
+                width={50}
+                height={50}
+              />
+            </Link>
+          </li>
+        </ul>
+      </nav>
+      <nav className=" flex flex-row items-center justify-start gap-12 h-12">
+        <ul className="flex flex-row items-center justify-start gap-12 h-12">
+
+          <li className="text-white font-bold cursor-pointer">
+            <Link href="#hero">Home</Link>
+          </li>
+          <li className="text-white font-bold cursor-pointer">
+            About
+          </li>
+          <li className="text-white font-bold cursor-pointer">
+            <Link href="#projects">Projects</Link>
+          </li>
+          <li className="text-white font-bold cursor-pointer">
+            <Link href="#contact">Contact</Link>
+          </li>
+        </ul>
+      </nav>
+    </div>
+  );
+};
