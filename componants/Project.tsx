@@ -87,7 +87,7 @@ export const Counter = () => {
           Next
         </button>
       </div>
-      <div className="flex flex-row gap-2 mt-4 mb-4">
+      <div className="flex flex-row gap-2 mt-4 mb-4 flex-wrap">
         {project[selected].tech.map((tech, index) => (
           <p
             key={index}

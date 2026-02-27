@@ -38,18 +38,18 @@ export default function Home() {
         </section>
         <section
           id="projects"
-          className="flex flex-col items-center justify-center gap-4 scroll-mt-32"
+          className="flex flex-col  items-center justify-center gap-4 scroll-mt-32"
         >
           <h1 className="text-4xl font-bold">Projects</h1>
-          <div className="bg-green-500 w-full max-w-4xl h-128">
+          <div className="w-full max-w-4xl h-auto lg:h-128">
             <Counter />
           </div>
         </section>
         <section
           id="carrers"
-          className=" w-full h-156 flex flex-col lg:flex-row items-center justify-center mt-24 lg:mt-96 "
+          className="mt-24 lg:mt-96 w-full h-auto lg:h-156 flex flex-col lg:flex-row items-center justify-center "
         >
-          <div className="flex flex-col items-start justify-start gap-4 w-1/2 pl-24">
+          <div className="flex flex-col items-start justify-start gap-4 w-full lg:w-1/2 lg:pl-24">
             <h2 className="text-gray-600 text-xl font-bold">
               Turkish Airlines Cargo | Software Engineer Intern (May 2024 -
               January 2025)
@@ -68,7 +68,7 @@ export default function Home() {
               scheduling.
             </p>
           </div>
-          <div className="flex flex-col items-center justify-center gap-4 w-1/2">
+          <div className="flex flex-col items-center justify-center gap-4 w-full lg:w-1/2">
             <Image
               src="/internship-on-site.png"
               alt="Turkish Airlines Cargo"

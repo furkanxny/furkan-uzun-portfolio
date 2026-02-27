@@ -5,7 +5,7 @@ export const Navbar = () => {
   return (
     <div className="sticky top-0 z-50 bg-gray-500 flex flex-row items-center justify-between pt-4 pb-4 px-4 sm:px-6 lg:px-8">
       <nav>
-        <ul className=" flex flex-row items-center justify-end gap-12 h-12">
+        <ul className=" flex flex-row items-center justify-end gap-4 lg:gap-12 h-12">
           <li className="text-white font-bold cursor-pointer">
             <Link
               href="https://www.linkedin.com/in/furkanxny28/"
@@ -41,8 +41,8 @@ export const Navbar = () => {
           </li>
         </ul>
       </nav>
-      <nav className=" flex flex-row items-center justify-start gap-12 h-12">
-        <ul className="flex flex-row items-center justify-start gap-12 h-12">
+      <nav className=" flex flex-row items-center justify-start gap-4 lg:gap-12 h-12">
+        <ul className="flex flex-row items-center justify-start gap-4 lg:gap-12 h-12">
 
           <li className="text-white font-bold cursor-pointer">
             <Link href="#hero">Home</Link>
