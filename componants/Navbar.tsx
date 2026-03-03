@@ -48,9 +48,6 @@ export const Navbar = () => {
             <Link href="#hero">Home</Link>
           </li>
           <li className="text-white font-bold cursor-pointer">
-            About
-          </li>
-          <li className="text-white font-bold cursor-pointer">
             <Link href="#projects">Projects</Link>
           </li>
           <li className="text-white font-bold cursor-pointer">

@@ -17,14 +17,11 @@ export default function Home() {
             </h3>
             <h1 className="text-4xl font-bold">Hi there, I'm Furkan Uzun</h1>
             <p className="text-lg text-gray-600">
-              I’m a software engineer who loves the process of building things
-              from scratch. I spend my time working across the full stack,
-              solving tricky problems and trying to make apps that actually feel
+              I’m a software engineer who loves the process of building things.
+	      I spend my time working across the full stack,
+	       solving problems and trying to make apps that actually feel
               good to use.
             </p>
-            <button className="bg-blue-500 text-white px-4 py-2 rounded-md">
-              Download CV
-            </button>
           </div>
           <div className="w-48 h-48 lg:w-96 lg:h-128 rounded-full overflow-hidden">
             <Image
@@ -78,7 +75,7 @@ export default function Home() {
             />
           </div>
         </section>
-        <Contact />
+      
       </div>
     </main>
   );
