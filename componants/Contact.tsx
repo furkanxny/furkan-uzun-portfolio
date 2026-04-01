@@ -19,7 +19,5 @@ export const Contact = () => {
       [e.target.name]: e.target.value,
     });
   }
-  return (
-      
-  );
+  
 };
