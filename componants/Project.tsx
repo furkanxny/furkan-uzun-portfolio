@@ -53,8 +53,8 @@ export const Counter = () => {
     <div className="w-full h-full">
       <Image
         src={project[selected].image}
-        alt="Furkan Uzun"
-        className="w-full h-full object-cover"
+        alt={`${project[selected].name} screenshot`}
+        className="rounded-lg w-full h-full object-cover"
         width={1280}
         height={720}
       />

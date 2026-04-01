@@ -9,7 +9,7 @@ export default function Home() {
       <div className="bg-gray-300 max-w-8xl w-full mx-auto h-auto px-4 sm:px-6 lg:px-8 space-y-24 lg:space-y-72 pb-12">
         <section
           id="hero"
-          className="flex flex-col-reverse lg:flex-row justify-center min-h-[70vh] items-center gap-12 lg:gap-24 pt-56 scroll-mt-24"
+          className="flex flex-col-reverse lg:flex-row justify-center min-h-[70vh] items-center gap-12 lg:gap-24 pt-28 scroll-mt-24"
         >
           <div className="flex flex-col items-center justify-center gap-4 w-full lg:w-1/2">
             <h3 className="text-lg text-gray-600">
@@ -18,9 +18,6 @@ export default function Home() {
             <h1 className="text-4xl font-bold">Hi there, I'm Furkan Uzun</h1>
             <p className="text-lg text-gray-600">
               I’m a software engineer who loves the process of building things.
-	      I spend my time working across the full stack,
-	       solving problems and trying to make apps that actually feel
-              good to use.
             </p>
           </div>
           <div className="w-48 h-48 lg:w-96 lg:h-128 rounded-full overflow-hidden">
@@ -49,20 +46,21 @@ export default function Home() {
           <div className="flex flex-col items-start justify-start gap-4 w-full lg:w-1/2 lg:pl-24">
             <h2 className="text-gray-600 text-xl font-bold">
               Turkish Airlines Cargo | Software Engineer Intern (May 2024 -
-              January 2025)
+              August 2024)
             </h2>
             <p className="text-lg text-gray-600">
-              • Engineered and deployed an on-premises Large Language Model
-              (LLM) on a server.
+              • Designed and implemented RESTful APIs in Spring Boot for a new
+              billing dispute system, streamlining how users flag and track
+              discrepancies.
             </p>
             <p className="text-lg text-gray-600">
-              • Developed an automated cargo screening and handling system,
-              alongside an automated quote pricing mechanism based on
-              destination.
+              • Developed interactive UI components using React for Air Waybill
+              (AWB) cargo dashboards, enabling employees to view real-time
+              shipment tracking updates.
             </p>
             <p className="text-lg text-gray-600">
-              • Developed algorithms for optimizing cargo space utilization and
-              scheduling.
+              • Reduced dashboard load times by 40% by optimizing database
+              queries and implementing custom DTOs to streamline data retrieval.
             </p>
           </div>
           <div className="flex flex-col items-center justify-center gap-4 w-full lg:w-1/2">
@@ -71,11 +69,10 @@ export default function Home() {
               alt="Turkish Airlines Cargo"
               width={1000}
               height={1000}
-              className="rounded-full w-128"
+              className="rounded-full w-128 "
             />
           </div>
         </section>
-      
       </div>
     </main>
   );

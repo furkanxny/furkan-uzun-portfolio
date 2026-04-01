@@ -35,23 +35,25 @@ export const Navbar = () => {
             </Link>
           </li>
           <li className="text-white font-bold cursor-pointer">
-            <Link href="https://docs.google.com/document/d/1iQjbrz_VAyZUfhtEFMYtmR_dvUlZ_R-QW9AA5g6HV9M/edit?usp=sharing" target="_blank" rel="noopener noreferrer">
-            <h3 className="text-white font-bold cursor-pointer text-2xl">Resume</h3>
+            <Link
+              href="https://docs.google.com/document/d/1iQjbrz_VAyZUfhtEFMYtmR_dvUlZ_R-QW9AA5g6HV9M/edit?usp=sharing"
+              target="_blank"
+              rel="noopener noreferrer"
+            >
+              <h3 className="text-white font-bold cursor-pointer text-2xl">
+                Resume
+              </h3>
             </Link>
           </li>
         </ul>
       </nav>
       <nav className=" flex flex-row items-center justify-start gap-4 lg:gap-12 h-12">
         <ul className="flex flex-row items-center justify-start gap-4 lg:gap-12 h-12">
-
           <li className="text-white font-bold cursor-pointer">
             <Link href="#hero">Home</Link>
           </li>
           <li className="text-white font-bold cursor-pointer">
             <Link href="#projects">Projects</Link>
-          </li>
-          <li className="text-white font-bold cursor-pointer">
-            <Link href="#contact">Contact</Link>
           </li>
         </ul>
       </nav>
